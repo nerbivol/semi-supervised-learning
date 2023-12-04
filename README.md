@@ -95,6 +95,24 @@ As seen, we train a supervised model on our labeled images with cross-entropy lo
 
 ![image](https://github.com/nerbivol/semi-supervised-learning/assets/68056715/8e5baec3-bf01-45f8-a767-f3cfb10a591b)
 
+# Comparison of Methods
+
+Here is a high-level summary of the differences between all the above-mentioned methods.
+
+| Method Name                          | Year | Unlabeled Loss | Augmentation                       |
+|--------------------------------------|------|-----------------|-----------------------------------|
+| Pseudo-label                         | 2013 | Cross-Entropy   | Random                            |
+| π-model                              | 2016 | MSE             | Random                            |
+| Temporal Ensembling                  | 2016 | MSE             | Random                            |
+| Mean Teacher                         | 2017 | MSE             | Random                            |
+| Virtual Adversarial Training (VAT)   | 2017 | KL-divergence   | Adversarial transformation       |
+| Unsupervised Data Augmentation (UDA) | 2019 | KL-divergence   | AutoAugment                       |
+| MixMatch                             | 2019 | MSE             | Random                            |
+| Noisy Student                        | 2019 | Cross-Entropy   | RandAugment                       |
+| FixMatch                             | 2020 | Cross-Entropy   | CTAugment / RandAugment           |
+
+
+
 @misc{chaudhary2020semisupervised,
   title   = {Semi-Supervised Learning in Computer Vision},
   author  = {Amit Chaudhary},
