@@ -95,8 +95,6 @@ As seen, we train a supervised model on our labeled images with cross-entropy lo
 
 ![image](https://github.com/nerbivol/semi-supervised-learning/assets/68056715/8e5baec3-bf01-45f8-a767-f3cfb10a591b)
 
-From source: Amit Chaudhary. [Semi-Supervised Learning in Computer Vision](https://amitness.com/2020/07/semi-supervised-learning/#a-mixmatch)
-
 @misc{chaudhary2020semisupervised,
   title   = {Semi-Supervised Learning in Computer Vision},
   author  = {Amit Chaudhary},
