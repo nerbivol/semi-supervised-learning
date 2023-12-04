@@ -112,10 +112,6 @@ Here is a high-level summary of the differences between all the above-mentioned 
 | FixMatch                             | 2020 | Cross-Entropy   | CTAugment / RandAugment           |
 
 
+### References
 
-@misc{chaudhary2020semisupervised,
-  title   = {Semi-Supervised Learning in Computer Vision},
-  author  = {Amit Chaudhary},
-  year    = 2020,
-  note    = {\url{https://amitness.com/2020/07/semi-supervised-learning/}}
-}
+- Amit Chaudhary, [Semi-Supervised Learning in Computer Vision](https://amitness.com/2020/07/semi-supervised-learning/)
